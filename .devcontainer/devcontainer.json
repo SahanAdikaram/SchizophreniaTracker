@@ -1,0 +1,9 @@
+{
+  "name": "Schizophrenia Tracker Dev",
+  "postCreateCommand": "cd sc && npm install && cd ../server && npm install && cd .. && npm install",
+  "customizations": {
+    "vscode": {
+      "extensions": ["dbaeumer.vscode-eslint"]
+    }
+  }
+}
